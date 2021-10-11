@@ -203,27 +203,27 @@
 
     .left {
         padding: 20px 10px;
+        text-align: center;
+        justify-content: center;
+        margin: 100px auto;
+        width: 80%;
     }
     
     .left>h1 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     .left>p {
-        font-size: 1em;
+        font-size: 1.5em;
         margin-left: 0px;
     }
 
     section {
-        position: relative;
+        display: none;
     }
 
-    section .loader {
-        height: 200px;
-    }
-
-    .left {
-        margin: 200px auto 50px auto;
+    .left>p {
+        margin: 0;
     }
 
     .right {
@@ -248,8 +248,12 @@
         width: 30%;
     }
 
+    .right {
+        width: 90%;
+    }
+
     .right>h2 {
-        font-size: 1.75em;
+        font-size: 2em;
     }
 
     .right>h3 {
@@ -265,7 +269,7 @@
 
     .right>ul>li {
         text-align: left;
-        font-size: 0.75em;
+        font-size: 0.8em;
 
     }
 
