@@ -191,6 +191,88 @@
     .flip-box {
         margin: 20px 20px;
     }
+
+
+
+    /* Partie Contact  */
+
+
+    .container_contact{
+        flex-direction: column;
+    }
+
+    .left {
+        padding: 20px 10px;
+    }
+    
+    .left>h1 {
+        font-size: 1.8em;
+    }
+
+    .left>p {
+        font-size: 1em;
+        margin-left: 0px;
+    }
+
+    section {
+        position: relative;
+    }
+
+    section .loader {
+        height: 200px;
+    }
+
+    .left {
+        margin: 200px auto 50px auto;
+    }
+
+    .right {
+        width: 80%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+
+    .parti {
+        margin-bottom: 80px;
+    }
+
+    .parti>img {
+        margin-right: 20px;
+        height: 25px;
+        margin-left: 0;
+    }
+
+    .parti>.cliquable {
+        padding: 10px;
+        width: 30%;
+    }
+
+    .right>h2 {
+        font-size: 1.75em;
+    }
+
+    .right>h3 {
+        font-size: 1em;
+        margin: 20px;
+    }
+
+    .right>ul {
+        text-align: center;
+        margin: 10px;
+        margin-left: 20px;
+    }
+
+    .right>ul>li {
+        text-align: left;
+        font-size: 0.75em;
+
+    }
+
+    .right>ul>li>img {
+        height: 15px;
+        margin-right: 10px;
+    }
 }
 
 
