@@ -151,6 +151,47 @@
         padding: 20px 50px;
     }
 
+
+
+
+    /* Partie Réalisations */
+
+
+    .haut {
+        padding: 30px 20px;
+        margin: 100px auto;
+    }
+    .haut>h1 {
+        font-size: 1.9em;
+    }
+
+    .haut>p {
+        font-size: 0.8em;
+        margin-left: 0;
+    }
+
+    .bas {
+        position: relative;
+        min-height: 2000px;
+    }
+
+    .bas>h2 {
+        font-size: 1.5em;
+    }
+
+    .bas>h2>div {
+        width: 95%;
+    }
+
+    .ligne_rea {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .flip-box {
+        margin: 20px 10px;
+    }
 }
+
 
 
