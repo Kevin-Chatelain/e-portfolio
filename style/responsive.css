@@ -74,6 +74,7 @@
     .infos {
         width: 100%;
         margin: 10% auto 10% auto;
+        font-size: 1.2em;
     }
 
     .principale {
@@ -82,7 +83,7 @@
     }
 
     .principale>h2 {
-        font-size: 1.75em;
+        font-size: 1.5em;
         margin-top: 80px;
     }
 
@@ -99,6 +100,7 @@
     .principale>div>p {
         margin-top: 100px;
         margin-left: 0px;
+        font-size: 1.2em;
     }
 
     .principale_div{
@@ -106,7 +108,7 @@
     }
 
     .explica {
-        font-size: 1.1em;
+        font-size: 1em;
         margin-left: 0;
         letter-spacing: 2px;
         text-align: center;
@@ -118,12 +120,16 @@
         margin: 10px auto;
     }
 
+    .competence>h3 {
+        font-size: 1em;
+    }
+
     .boite {
         width: 250px;
     }
 
     .boite, .inner {
-        height: 15px;
+        height: 10px;
     }
 
     .titre_cv {
@@ -142,7 +148,7 @@
     footer {
         font-size: 0.75em;
         letter-spacing: 2px;
-        padding: 40px 50px;
+        padding: 20px 50px;
     }
 
 }
