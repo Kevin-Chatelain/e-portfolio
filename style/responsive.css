@@ -1,0 +1,107 @@
+
+@media screen and (max-width: 600px) {
+
+    /* Partie Index */
+
+
+    .links {
+       display: none; 
+    }
+
+    .menu {
+        display: contents;
+    }
+
+    header {
+        width: 80%;
+        padding: 20px 10px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .container * {
+        margin: 75px auto
+    }
+
+    .titres>h1{
+        font-size: 4em;
+    }
+    
+    .titres>h2{
+        font-size: 1.5em;
+        margin: 20px auto;
+    }
+
+    .boutons {
+        display: flex;
+        padding: 0 50px;
+    }
+
+    .cliquable {
+        margin: 0 auto;
+        width: 28%;
+        height: 30px;
+        font-size: 0.6em;
+        padding: 5px 10px 5px 10px;
+    }
+
+
+
+    /* Partie Profil */
+
+
+
+    .haut_profil>h1{
+        font-size: 3em;
+    }
+
+    .infos {
+        width: 80%;
+        margin: 10% auto 10% auto;
+    }
+
+    .principale {
+        transform: translateY(0%);
+    }
+
+    .principale>div {
+        flex-direction: column;
+    }
+
+    .principale>div>p {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .principale_div{
+        margin-bottom: 100px;
+    }
+
+    .explica {
+        font-size: 1.5em;
+        text-align: justify;
+    }
+
+    .boite {
+        width: 350px;
+    }
+
+    .titre_cv {
+        font-size: 1em;
+    }
+
+    .bas_cv>.cliquable {
+        font-size: 1em;
+        padding: 20px 30px;
+    }
+
+    footer {
+        font-size: 0.8em;
+        letter-spacing: 2px;
+    }
+
+}
+
+
