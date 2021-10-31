@@ -38,6 +38,7 @@
 
 .right>ul>li>img {
     margin-right: 35px;
+    filter: hue-rotate(0deg);
 }
 
 .parti {

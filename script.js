@@ -8,3 +8,13 @@ function close() {
 
 document.querySelector('.menu').addEventListener("click", open);
 document.querySelector('.close').addEventListener("click", close);
+
+
+
+
+
+
+
+
+
+

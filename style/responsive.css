@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
     /* Partie Index */
 
@@ -14,12 +14,19 @@
 
     header {
         width: 80%;
-        padding: 20px 10px;
+        padding: 35px 10px;
+    }
+
+    header>a>img {
+        height: 60px;
+        width: 60px;
     }
 
     .container {
         text-align: center;
-        margin: 150px auto 20px auto;
+        position: absolute;
+        margin: auto;
+        top: 30vh;
     }
 
     .container * {
@@ -151,6 +158,9 @@
         padding: 20px 50px;
     }
 
+    #footer_contact {
+        margin-top: 500px;
+    }
 
 
 
@@ -189,7 +199,7 @@
     }
 
     .flip-box {
-        margin: 20px 20px;
+        margin: 40px auto;
     }
 
 
@@ -279,6 +289,18 @@
         margin-right: 10px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

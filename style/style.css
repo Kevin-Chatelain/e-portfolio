@@ -34,6 +34,9 @@ body {
     background: rgb(41, 41, 41);
 }
 
+
+
+
 .nav {
     position: absolute;
     z-index: 1;
@@ -124,10 +127,9 @@ header {
     align-items: center;
 }
 
-header>img {
-    width: 60px;
-    height: 60px;
-    border: 3px solid white;
+header>a>img {
+    height: auto;
+    max-width: 100%;
 
 }
 
@@ -162,15 +164,16 @@ header>img {
 }
 
 .container {
-    position: relative;
+    position: absolute;
     width: 80%;
-    margin: 25vh auto 0 auto;
     text-align: left;
     color: white;
+    left: 10%;
+    top: 45vh;
 }
 
 .container * {
-    margin: 50px 0;
+    margin: 40px 0;
     color: white;
 }
 
@@ -179,13 +182,13 @@ header>img {
 }
 
 .titres>h1 {
-    font-size: 8em;
+    font-size: 7em;
     text-transform: uppercase;
     color: var(--green-color);
 }
 
 .titres>h2 {
-    font-size: 2.5em;  
+    font-size: 2.2em;  
 }
 
 
@@ -195,6 +198,7 @@ header>img {
     border: white 2px solid;
     height: 50px;
     width:100px;
+    font-size: 1em;
     padding: 10px 30px;
     letter-spacing: 1px;
     transition: 0.75s;
